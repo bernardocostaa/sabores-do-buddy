@@ -67,7 +67,7 @@ a{
 }
 @media(max-width:650px){
   header{
-    background-image: none;
+    background-image:none;
     background: black;
   }
   .menu-header{
@@ -75,7 +75,7 @@ a{
     flex-wrap: wrap;
   }
   .menu-header a{
-    font-size: 18px;
+    font-size: 16px;
     color: var(--cor-0);
   }
 }
