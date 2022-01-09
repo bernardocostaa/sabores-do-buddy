@@ -5,7 +5,9 @@ body{
 
 header{
   background-image: url("../../img/fotos/header.jpg");
+  background-repeat: no-repeat;
   height: 790px;
+  max-width: 100%;
 }
 .menu{
   display: flex;
@@ -24,4 +26,61 @@ a{
   text-decoration: none;
   color: initial;
 }
+.menu-header a {
+  display: block;
+}
+.menu-header a:hover {
+   transition:all 0.4s ease 0s;
+   transform:scale(1.2);
+}
+
+@media(max-width:900px){
+  header{
+    background-image: url("../../img/fotos/headerm.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .menu-header{
+    gap:20px;
+  }
+  .logo{
+    width: 350px;
+  }
+  .menu-header a{
+    font-size: 20px;
+  }
+  .logo{
+    width: 300px;
+  }
+} 
+@media(max-width:750px){
+  .menu-header{
+    gap: 12px;
+  }
+  .menu-header a{
+    font-size: 16px;
+  }
+  .menu-header a:hover {
+    transition:all 0.4s ease 0s;
+    transform:scale(1.1);
+ }
+}
+@media(max-width:650px){
+  header{
+    background-image: none;
+    background: black;
+  }
+  .menu-header{
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .menu-header a{
+    font-size: 18px;
+    color: var(--cor-0);
+  }
+}
+  
+
+
+
 
