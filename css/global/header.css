@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  height:5000px;
+}
+
+header{
+  background-image: url("../../img/fotos/header.jpg");
+  height: 790px;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.menu-header{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+a{
+  text-decoration: none;
+  color: initial;
+}
+
