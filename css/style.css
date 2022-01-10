@@ -5,3 +5,7 @@
 /* utilidades */
 @import "./utilidade/cores.css";
 @import "./utilidade/tipografia.css";
+
+/* utilidades */
+@import "./home/main.css";
+

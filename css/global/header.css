@@ -13,7 +13,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
   padding-top: 20px;
   flex-wrap: wrap;
 }
@@ -35,15 +34,40 @@ a{
 }
 .header-info{
  display: flex;
- max-width: 40%;
  flex-direction: column;
+ max-width: 1180px;
+ margin: 0 auto;
+ padding-left: 20px;
+ height: calc(100vh - 82px);
+ justify-content: center;
 }
-
+.header-info > *{
+  width: 40%;
+}
+.header-info p{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 @media(max-width:900px){
+  .header-info h1{
+    font-size: 40px;
+    
+  }
+  .header-info p{
+    font-size: 18px;
+  }
+  .botao{
+    font-size: 14px;
+  }
+  .header-info{
+    justify-content: start;
+  }
+  
   header{
     background-image: url("../../img/fotos/headerm.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    max-width: 100%;
+    
   }
   .menu-header{
     gap:20px;
@@ -62,6 +86,15 @@ a{
   .menu-header{
     gap: 12px;
   }
+  .header-info h1{
+    font-size: 36px;
+  }
+  .header-info p{
+    font-size: 18px;
+  }
+  .botao{
+    font-size: 14px;
+  }
   .menu-header a{
     font-size: 16px;
   }
@@ -74,6 +107,16 @@ a{
   header{
     background-image:none;
     background-color: var(--cor-11);
+  }
+  .header-info{
+    align-items: center;
+    padding-top: 40px;
+  }
+  .header-info h1{
+    color: var(--cor-0);
+  }
+  .header-info p {
+    color: var(--cor-0);
   }
   .menu-header{
     gap: 20px;
