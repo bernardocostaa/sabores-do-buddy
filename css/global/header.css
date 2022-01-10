@@ -33,6 +33,11 @@ a{
    transition:all 0.4s ease 0s;
    transform:scale(1.2);
 }
+.header-info{
+ display: flex;
+ max-width: 40%;
+ flex-direction: column;
+}
 
 @media(max-width:900px){
   header{
@@ -68,7 +73,7 @@ a{
 @media(max-width:650px){
   header{
     background-image:none;
-    background: black;
+    background-color: var(--cor-11);
   }
   .menu-header{
     gap: 20px;
@@ -77,6 +82,9 @@ a{
   .menu-header a{
     font-size: 16px;
     color: var(--cor-0);
+  }
+  .menu-bg{
+    background-color: black;
   }
 }
   
