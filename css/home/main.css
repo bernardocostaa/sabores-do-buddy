@@ -2,47 +2,61 @@
 .caixar-animal{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  gap: 40px;
   position: relative;
   top: -40px;
-  max-width: 100%;
-  
+  overflow-x: auto;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .animal-card{
   background: var(--cor-p1);
-  height: 400px;
-  width: 400px;
+  height: auto;
   border-radius: 5px;
-  text-align: center;
   max-width: 100%;
-
+  min-width: 250px;
+  
 }
-.animal-card img{
-  padding-top: 40px;
+.texto-animal{
+ padding: 15px 10px;
+ text-align: center;
 }
-.animal-card h2{
-  font: 2rem/1.2 "Work Sans", sans-serif;
-  padding-top: 20px;
+.texto-animal p {
+  text-align: start;
+  font-size: 18px;
 }
-.animal-card p{
-  font-size: 20px;
-  padding-top: 20px;
+.texto-animal img{
   padding-bottom: 20px;
 }
-.animal-card a{
+.texto-animal h2{
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.texto-animal a{
   display: inline-block;
   font-weight: bold;
   font-size: 20px;
   font-family: "Work Sans";
+  margin-top: 20px;
 }
-.animal-card a:hover{
-  color: var(--cor-0)
+.texto-animal a:hover{
+  color: var(--cor-0);
 }
-.animal-card a::after{
+.texto-animal a::after{
   content: "";
   display: block;
   width: 100%;
-  height: 4px;
+  height: 3px;
   background-color: currentColor;
 }
 
+@media(max-width:850px){
+  .caixar-animal{
+    grid-template-columns: 1fr;
+  }
+  .animal-card{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
