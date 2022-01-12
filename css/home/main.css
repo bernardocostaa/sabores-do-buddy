@@ -9,6 +9,7 @@
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 120px;
 }
 .animal-card{
   background: var(--cor-p1);
@@ -54,6 +55,7 @@
 @media(max-width:850px){
   .caixar-animal{
     grid-template-columns: 1fr;
+    padding-bottom: 40px;
   }
   .animal-card{
     margin-left: 25px;
