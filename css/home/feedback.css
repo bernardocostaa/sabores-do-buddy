@@ -1,0 +1,9 @@
+.caixa{
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.caixa-dentro{
+  background: linear-gradient(#4AB622 21.88%, #76F248 94.27%);
+}

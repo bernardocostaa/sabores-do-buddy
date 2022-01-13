@@ -17,9 +17,6 @@ ul{
   padding: 0;
   list-style: none;
 }
-span{
-  color: var(--cor-p1);
-}
 .botao{
   display: inline-block;
   padding: 16px 32px;
@@ -49,4 +46,11 @@ span{
 
 .botao:hover{
   background: var(--cor-p2);
+}
+.botao2:hover{
+  background: var(--cor-p2);
+}
+
+.ponto{
+  color: var(--cor-p1);
 }

@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   padding-top: 120px;
   gap: 40px;
+  padding-bottom: 120px;
 }
 .dieta-conteudo h1 {
   margin-bottom: 32px;
