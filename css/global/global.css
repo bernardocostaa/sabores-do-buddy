@@ -33,6 +33,7 @@ span{
   border: none;
   cursor: pointer;
 }
+
 .botao:hover{
   background: var(--cor-p2);
 }

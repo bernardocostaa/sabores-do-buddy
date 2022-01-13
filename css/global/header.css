@@ -131,6 +131,9 @@ a{
   .menu-header a{
     font-size: 16px;
   }
+  .conteudo-header{
+    width: auto;
+  }
 }
 }
   

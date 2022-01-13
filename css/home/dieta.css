@@ -1,0 +1,41 @@
+.dieta-full {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 120px;
+  gap: 40px;
+}
+.dieta-conteudo h1 {
+  margin-bottom: 32px;
+}
+.dieta-conteudo p {
+  margin-bottom: 28px;
+}
+.botao-dieta {
+display: flex;
+justify-content: space-between;
+}
+
+.dieta-img img {
+  width: 100%;
+  height: 100%;
+}
+@media(max-width:1080px){
+  .dieta-full{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .dieta-img img{
+      width: 100%;
+      height: 500;
+  }
+  .botao-dieta{
+    justify-content: space-around;
+  }
+  .dieta-conteudo p{
+    font-size: 20px;
+  }
+  .dieta-conteudo h1{
+    font-size: 46px;
+  }
+}
+

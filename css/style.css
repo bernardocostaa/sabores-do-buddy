@@ -6,7 +6,8 @@
 @import "./utilidade/cores.css";
 @import "./utilidade/tipografia.css";
 
-/* utilidades */
+/* home */
 @import "./home/main.css";
 @import "./home/ingredientes.css";
+@import "./home/dieta.css";
 
