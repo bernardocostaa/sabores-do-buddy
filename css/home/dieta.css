@@ -39,7 +39,7 @@ justify-content: space-between;
     font-size: 46px;
   }
 }
-@media(max-width:550px){
+@media(max-width:500px){
   .botao{
     padding: 16px 8px !important;
   }
