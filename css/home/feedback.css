@@ -1,24 +1,49 @@
 .caixa{
-  padding-top: 80px;
+  padding-top: 160px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
 .caixa-dentro{
   background: linear-gradient(#4AB622 21.88%, #76F248 94.27%);
-  width: 360px;
-  height: 400px;
+  max-width: 100%;
+  height: 350px;
   border-radius: 5px;
 }
-.caixa-dentro p{
-  padding: 12px 24px;
+.caixa-texto{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.caixa-texto span{
+  margin-right: 16px;
+}
+.caixa-texto p{
+  position: relative;
+    bottom: 46px;
+    padding: 12px 12px;
+    line-height: 1.5;
+    text-align: start;
 }
 .comentario{
   font-weight: bold;
-  font-size: 24px;
 }
 .caixa-dentro img{
+  max-width: 100%;
+  height: auto;
   position: relative;
   bottom: 80px;
   left: 90px;
+}
+@media(max-width:1100px){
+  .caixa-dentro img{
+    width: 50%;
+    left: 80px;
+    bottom: 60px;
+  }
+}
+@media(max-width:900px){
+  .caixa{
+    grid-template-columns: 1fr;
+  }
 }
