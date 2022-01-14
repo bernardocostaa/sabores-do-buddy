@@ -1,5 +1,46 @@
 .bg-color{
   background-color: var(--cor-p1);
+}
+.footer{
+  display: grid;
+  grid-template-columns: 3fr 4fr 5fr;
+  gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-baixo{
+  background: var(--cor-12);
+  color: var(--cor-0);
+}
+.footer-baixo p {
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+}
+.contato-footer h3{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.informacoes-footer h3{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.redes-footer{
+  display: flex;
+  gap: 32px;
+}
+.contato-footer li{
+  margin-bottom: 16px;
+}
+.informacoes-footer li{
+  margin-bottom: 16px;
+}
+.contato-footer li:hover{
+  color: var(--cor-6);
+}
+.contato-footer a:hover{
+  color: var(--cor-6);
+}
+.informacoes-footer a:hover{
+  color: var(--cor-6);
 }
