@@ -1,0 +1,5 @@
+.bg-color{
+  background-color: var(--cor-p1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

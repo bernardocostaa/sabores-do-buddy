@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+  padding-bottom: 80px;
 }
 .caixa-dentro{
   background: linear-gradient(#4AB622 21.88%, #76F248 94.27%);
@@ -42,8 +43,53 @@
     bottom: 60px;
   }
 }
+@media(max-width:950px) {
+  .caixa-dentro img{
+    width: 50%;
+    left: 70px;
+    bottom: 60px;
+  }
+  }
+
 @media(max-width:900px){
   .caixa{
     grid-template-columns: 1fr;
+    gap: 100px;
+  }
+  .caixa-dentro{
+    height: 300px;
+  }
+  .caixa-dentro img{
+    width: 25%;
+    left: 300px;
+    bottom: 80px;
   }
 }
+@media(max-width:800px) {
+  .caixa-dentro img{
+    width: 25%;
+    left: 250px;
+    bottom: 60px;
+  }
+  }
+  @media(max-width:650px) {
+    .caixa-dentro img{
+      width: 25%;
+      left: 230px;
+      bottom: 60px;
+    }
+    }
+    @media(max-width:550px) {
+      .caixa-dentro img{
+        width: 25%;
+        left: 180px;
+        bottom: 60px;
+      }
+      }
+      @media(max-width:500px) {
+        .caixa-dentro img{
+          width: 25%;
+          left: 170px;
+          bottom: 60px;
+        }
+        }
