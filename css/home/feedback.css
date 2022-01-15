@@ -96,3 +96,17 @@
           bottom: 60px;
         }
         }
+        @media(max-width:400px) {
+          .caixa-dentro img{
+            width: 25%;
+            left: 130px;
+            bottom: 40px;
+          }
+          }
+          @media(max-width:340px) {
+            .caixa-dentro img{
+              width: 25%;
+              left: 100px;
+              bottom: 40px;
+            }
+            }
