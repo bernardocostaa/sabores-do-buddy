@@ -13,3 +13,6 @@
 @import "./home/dieta.css";
 @import "./home/feedback.css";
 
+/* cardapio */
+@import "./cardapio/headerDescri.css";
+

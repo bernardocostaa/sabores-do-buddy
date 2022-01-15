@@ -2,6 +2,9 @@ body{
   margin: 0;
   
 }
+.menu-bg{
+  background: var(--cor-12);
+}
 
 .header-foto{
   background-image: url("../../img/fotos/header.jpg");
@@ -110,7 +113,6 @@ a{
   header{
     background-image: url("../../img/fotos/headermm.jpg");
     background-position: center;
-    height: 600px;
   }
   .header-info{
     align-items: start;
