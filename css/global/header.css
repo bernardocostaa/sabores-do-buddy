@@ -3,7 +3,7 @@ body{
   
 }
 
-header{
+.header-foto{
   background-image: url("../../img/fotos/header.jpg");
   background-repeat: no-repeat;
   height: 790px;
