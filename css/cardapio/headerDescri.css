@@ -12,6 +12,15 @@
   flex-wrap: wrap;
   
 }
+.header-cardapio h1::before{
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 50px;
+  background: var(--cor-p1);
+  position: relative;
+  top: 5px;
+}
 .header-cardapio-image img{
   width: 100%;
   height: auto;
@@ -23,9 +32,7 @@
   gap: 40px;
   flex-wrap: wrap;
 }
-.menu-header-v2 a{
-  font-size: 15px;
-}
+
 .menu-v2{
   display: flex;
   justify-content: space-between;
@@ -57,5 +64,8 @@
     font-size: 18px;
     flex-wrap: wrap;
   } 
+  .menu-header-v2 a{
+    font-size: 15px;
+  }
 }
 
