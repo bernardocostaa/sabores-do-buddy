@@ -8,6 +8,8 @@
   background: var(--cor-10);
   border-radius: 50%;
   padding: 10px 10px;
+  height: 40px;
+  width: 40px;
 }
 .cardapio-corpo ul{
   display: grid;
@@ -64,5 +66,25 @@ margin-bottom: 20px;
   background: url("../../img/patas.svg") no-repeat top 2500px right 0px;
 }
 .patas-b-c{
-  background: url("../../img/pata-c.svg") no-repeat left 20px left 0px;
+  background: url("../../img/pata-c.svg") no-repeat top 20px left 0px;
+}
+
+@media(max-width:1150px){
+  .bg-cor{
+    background: var(--cor-11);
+  }
+  .bg-cor2{
+    background: var(--cor-11);
+  }
+  .cardapio-corpo{
+    grid-template-columns: 1fr;
+  }
+  .cardapio-img img{
+    display: block;
+    position: inherit;
+    width: 70%;
+  }
+  .cardapio-corpo ul{
+    gap: 20px 35px;
+  }
 }
