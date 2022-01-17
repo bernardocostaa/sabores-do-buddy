@@ -20,6 +20,7 @@
   background: var(--cor-p1);
   position: relative;
   top: 5px;
+  left: -4px;
 }
 .header-cardapio-image img{
   width: 100%;

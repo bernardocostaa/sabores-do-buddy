@@ -1,6 +1,7 @@
 .cardapio-corpo{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: relative;
   
 }
 .cardapio-corpo li{
@@ -12,11 +13,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 20px 70px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   
 }
 .espaco{
   padding-top: 160px;
+  padding-bottom: 160px;
 }
 .bg-cor{
   background: linear-gradient(to right,var(--cor-0) 30%,var(--cor-11) 0);
@@ -32,13 +34,35 @@
 }
 .aviso-dog{
 align-items: center;
-margin-bottom: 40px;
+margin-bottom: 20px;
+}
+.cardapio-conteudo{
+  padding-bottom: 40px;
 }
 .cardapio-conteudo h2{
   margin-bottom: 40px;
   padding-top: 20px;
 }
+.cardapio-conteudo h2::before{
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 50px;
+    background: var(--cor-p1);
+    position: relative;
+    top: 5px;
+    left: -4px;
+}
 .cardapio-img img{
-  display: block;
-  position: absolute
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  max-width: 100%;
+}
+.patas-b{
+  background: url("../../img/patas.svg") no-repeat top 2500px right 0px;
+}
+.patas-b-c{
+  background: url("../../img/pata-c.svg") no-repeat left 20px left 0px;
 }
