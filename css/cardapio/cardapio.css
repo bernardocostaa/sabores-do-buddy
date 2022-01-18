@@ -92,7 +92,7 @@ margin-bottom: 20px;
     gap: 20px 35px;
   }
   .menu-header-v2{
-    gap: 30px;
+    gap: 18px;
   }
   .espaco{
     padding-bottom: 0px;
@@ -104,5 +104,21 @@ margin-bottom: 20px;
   }
   .cardapio-conteudo h2{
     font-size: 48px;
+  }
+  .botao{
+    padding: 16px 60px;
+  }
+  .header-cardapio h1::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 25px;
+    background: var(--cor-p1);
+    position: relative;
+    top: 5px;
+    left: -4px;
+  }
+  .header-cardapio h1{
+    font-size: 22px;
   }
 }

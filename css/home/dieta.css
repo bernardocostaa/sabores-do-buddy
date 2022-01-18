@@ -40,7 +40,7 @@ justify-content: space-between;
   }
 }
 @media(max-width:500px){
-  .botao{
+  .botao-d{
     padding: 16px 8px !important;
   }
   .botao-dieta a{
