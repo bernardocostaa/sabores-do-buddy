@@ -62,8 +62,9 @@ margin-bottom: 20px;
   margin: auto;
   max-width: 100%;
 }
+
 .patas-b{
-  background: url("../../img/patas.svg") no-repeat top 2500px right 0px;
+  background: url("../../img/patas.svg") no-repeat top 2450px right 0px;
 }
 .patas-b-c{
   background: url("../../img/pata-c.svg") no-repeat top 20px left 0px;
@@ -84,7 +85,24 @@ margin-bottom: 20px;
     position: inherit;
     width: 70%;
   }
+  .cardapio-img-c{
+   order: -1;
+  }
   .cardapio-corpo ul{
     gap: 20px 35px;
+  }
+  .menu-header-v2{
+    gap: 30px;
+  }
+  .espaco{
+    padding-bottom: 0px;
+  }
+}
+@media(max-width:650px){
+  .cardapio-corpo ul{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .cardapio-conteudo h2{
+    font-size: 48px;
   }
 }
