@@ -1,0 +1,38 @@
+
+.formalaio-contato{
+  display: grid;
+  background: var(--cor-11);
+  justify-items: center;
+}
+.bg-main{
+  background: var(--cor-11) url("../../img/pata-c.svg") no-repeat top 80px left 0px;
+  padding-bottom: 60px;
+}
+.form{
+background: var(--cor-0);
+padding: 80px;
+border-radius: 5px;
+display: grid;
+gap: 20px;
+grid-template-columns: 1fr 1fr;
+}
+.form label{
+  display: block;
+  font: 400 1rem/1.5 "Work Sans",sans-serif;
+  margin-bottom: 4px;
+}
+.form input, .form textarea{
+  font: 400 1rem/1.5 "Roboto",sans-serif;
+    background: var(--cor-1);
+    border: 1px solid var(--cor-2);
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form .col-2{
+  grid-column: span 2;
+}
+textarea{
+  resize: none;
+}

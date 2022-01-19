@@ -33,6 +33,9 @@
   gap: 40px;
   flex-wrap: wrap;
 }
+.menu-header-v2 a:hover{
+   color: var(--cor-p1);
+}
 
 .menu-v2{
   display: flex;

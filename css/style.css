@@ -17,3 +17,7 @@
 @import "./cardapio/headerDescri.css";
 @import "./cardapio/cardapio.css";
 
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/info.css";
+

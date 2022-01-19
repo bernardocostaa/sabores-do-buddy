@@ -1,0 +1,39 @@
+.info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.info-conteudo h1{
+  padding-bottom: 60px;
+}
+.info-email{
+  display: flex;
+  padding-bottom: 40px;
+  align-items: center;
+}
+.info-tel{
+  display: flex;
+  padding-bottom: 40px;
+  align-items: center;
+}
+.padi{
+  padding-top: 80px;
+  background: url(../../img/patas.svg) no-repeat top 0px right 0px;
+}
+.mai{
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 600;
+}
+.wei{
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 15px;
+}
+.info-img{
+  display: flex;
+  justify-content: flex-end;
+}
+.info-img img{
+  gap: 20px;
+}
