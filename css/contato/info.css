@@ -24,6 +24,7 @@
   text-transform: uppercase;
   font-size: 26px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .wei{
   font-weight: 600;
@@ -36,4 +37,55 @@
 }
 .info-img img{
   gap: 20px;
+} 
+
+@media(max-width:1150px){
+.info-img img{
+  display: none;
+  justify-content: initial;
+}
+.info-conteudo h1{
+  font-size: 48px;
+}
+.info-tel p{
+  font-size: 24px;
+  }
+  .info-email p{
+    font-size: 24px;
+  }
+.padi{
+  padding-top: 80px;
+  background: initial;
+}
+}
+@media(max-width:600px){
+.info{
+  grid-template-columns: 1fr;
+}
+.info-email p{
+  font-size: 18px;
+  margin-left: 5px;
+}
+.info-tel p{
+  font-size: 18px;
+  margin-left: 5px;
+}
+.info-tel img{
+  width: 40px;
+  height: 40px;
+}
+.info-email img{
+  width: 40px;
+  height: 40px;
+}
+.header-cardapio-image img {
+  width: 50%;
+}
+.header-cardapio-image{
+  display: flex;
+  justify-content: flex-end
+}
+.mai{
+  font-size: 20px;
+}
 }
