@@ -1,0 +1,132 @@
+.planos-tot{
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.planos{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.plano-basico{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding-bottom: 60px;
+}
+.plano-basico-conteudo {
+  color: var(--cor-0);
+  background: var(--cor-12);
+  padding: 32px 32px 32px 60px;
+  border-radius: 5px;
+}
+.plano-basico-conteudo li{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.plano-basico-conteudo li::before{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/fotos/seta.svg");
+    position: absolute;
+    left: -21px;
+}
+.plano-melhor-conteudo li{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.plano-melhor-conteudo li::before{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/fotos/seta.svg");
+    position: absolute;
+    left: -21px;
+}
+.plano-melhor{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.plano-melhor-conteudo {
+  color: var(--cor-0);
+  background: var(--cor-12);
+  padding: 32px 32px 32px 60px;
+  border-radius: 5px;
+}
+.plano-basico-conteudo li{
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+.plano-basico-conteudo h1{
+  text-align: center;
+}
+.plano-melhor-conteudo h1{
+  text-align: center;
+}
+.plano-melhor-conteudo li{
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+.planos-f{
+  font: 500 2.4rem/1.2 "Work Sans", sans-serif;
+}
+.valor{
+  font-size: 25px;
+  position: relative;
+  font-weight: 500;
+  font-family: 'Roboto';
+  bottom: 35px;
+}
+.botao-c{
+  display: inline-block;
+  padding: 16px 32px;
+  background: var(--cor-9);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1) ;
+  text-transform: uppercase;
+  color: var(--cor-0);
+  font: 500 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+.botao-c:hover{
+  background: var(--cor-10);
+}
+.plano-melhor-img2 img{
+  position: relative;
+  left: 80px;
+  top: 30px;
+}
+@media(max-width:1000px){
+  .plano-melhor-img2{
+    display: none;
+  }
+  .plano-basico-img{
+    display: none;
+  }
+  .plano-basico{
+    grid-template-columns: 1fr;
+  }
+  .plano-melhor{
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width:600px){
+  .valor{
+    position: relative;
+    bottom: -8px;
+    font-size: 18px;
+    text-align: end;
+    display: block;
+  }
+  .botao{
+    font-size: 18px !important;
+  }
+  .plano-basico-conteudo h1{
+    font-size: 28px;
+  }
+}
