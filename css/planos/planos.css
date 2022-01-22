@@ -17,6 +17,7 @@
   background: var(--cor-12);
   padding: 32px 32px 32px 60px;
   border-radius: 5px;
+  border: 1px solid var(--cor-p1);
 }
 .plano-basico-conteudo li{
   display: flex;
@@ -55,6 +56,7 @@
   background: var(--cor-12);
   padding: 32px 32px 32px 60px;
   border-radius: 5px;
+  border: 1px solid var(--cor-p1);
 }
 .plano-basico-conteudo li{
   margin-bottom: 25px;

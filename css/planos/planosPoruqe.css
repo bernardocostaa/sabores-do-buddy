@@ -1,0 +1,74 @@
+.dieta-bom{
+  background: var(--cor-12);
+  padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.teste{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.tudo{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tudo div{
+  display: flex;
+  align-items: center;
+}
+.tudo img{
+  background: var(--cor-0);
+    border-radius: 50%;
+    padding: 10px 10px;
+    height: 40px;
+    width: 40px;
+}
+.tudo p{
+  margin-left: 15px;
+  font-size: 18px;
+}
+.dieta-bom-conteudo h2::before{
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 50px;
+  background: var(--cor-p1);
+  position: relative;
+  top: 5px;
+  left: -4px;
+}
+
+.dieta-bom-conteudo h2{
+  font-size: 48px;
+
+}
+@media(max-width:1000px) {
+  .tudo{
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width:600px) {
+  .teste{
+    grid-template-columns: 1fr;
+  }
+  .tudo div{
+    margin-bottom: 20px;
+  }
+  .dieta-bom-conteudo h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .dieta-bom-img{
+    display: flex;
+  }
+  .dieta-bom-img img{
+    width: 100px;
+    margin-right: 40px;
+  }
+  .dieta-bom-conteudo h2::before{
+    height: 25px;
+  }
+  .tudo p{
+    font-size: 14px;
+  }
+}
